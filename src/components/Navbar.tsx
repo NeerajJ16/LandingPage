@@ -15,8 +15,8 @@ import {
 
 import { buttonVariants } from "./ui/button";
 import { Menu } from "lucide-react";
-import { ModeToggle } from "./mode-toggle";
-import { LogoIcon } from "./Icons";
+//import { ModeToggle } from "./mode-toggle";
+//import { LogoIcon } from "./Icons";
 import { EnterIcon } from "@radix-ui/react-icons";
 import { Pencil1Icon } from "@radix-ui/react-icons";
 import logo from '../assets/logo.svg';
