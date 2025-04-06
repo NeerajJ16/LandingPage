@@ -1,6 +1,6 @@
-import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar";
-import { Badge } from "./ui/badge";
-import { Button, buttonVariants } from "@/components/ui/button";
+//import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar";
+//import { Badge } from "./ui/badge";
+//import { Button, buttonVariants } from "@/components/ui/button";
 import graph1 from "../assets/graph1.svg";
 import graph2 from "../assets/graph2.svg";
 import graph3 from "../assets/graph3.svg";
@@ -9,13 +9,13 @@ import {
   Card,
   CardContent,
   CardDescription,
-  CardHeader,
-  CardTitle,
-  CardFooter,
+//  CardHeader,
+//  CardTitle,
+//  CardFooter,
 } from "@/components/ui/card";
-import { Check, Linkedin } from "lucide-react";
-import { LightBulbIcon } from "./Icons";
-import { GitHubLogoIcon } from "@radix-ui/react-icons";
+//import { Check, Linkedin } from "lucide-react";
+//import { LightBulbIcon } from "./Icons";
+//import { GitHubLogoIcon } from "@radix-ui/react-icons";
 
 export const HeroCards = () => {
   return (
