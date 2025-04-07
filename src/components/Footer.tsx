@@ -1,4 +1,5 @@
-import { LogoIcon } from "./Icons";
+//import { LogoIcon } from "./Icons";
+import logo from "../assets/logo-2.svg";
 
 export const Footer = () => {
   return (
@@ -12,8 +13,7 @@ export const Footer = () => {
             href="/"
             className="font-bold text-xl flex"
           >
-            <LogoIcon />
-            ShadcnUI/React
+             <img src={logo} alt="Logo" className="w-auto h-auto" />
           </a>
         </div>
 
