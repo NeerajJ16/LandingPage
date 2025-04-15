@@ -12,7 +12,6 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet";
 
-
 import { buttonVariants } from "./ui/button";
 import { Menu } from "lucide-react";
 //import { ModeToggle } from "./mode-toggle";
@@ -48,8 +47,11 @@ const routeList: RouteProps[] = [
     href: "#faq",
     label: "FAQ",
   },
+  {
+    href: "/roadmap",
+    label: "Roadmap",
+  },
 ];
-
 export const Navbar = () => {
   const [isOpen, setIsOpen] = useState<boolean>(false);
   return (
